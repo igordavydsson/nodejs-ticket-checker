@@ -1,0 +1,34 @@
+<% include ./head %>
+  <body>
+    <div class="container col-md-8 col-md-offset-2">
+
+      <div class="jumbotron">
+        <h1><a href="/">Ticket Checker</a></h1>
+      </div>
+
+      <form class="ticket-form" action="/" id="form1" method="post">
+        <h2>Please type in the ticket number:</h2><br>
+        <input type="text" class="text-input" name="ticket" placeholder="your number..." autocomplete="off" pattern="[A-Za-z0-9]{1,10}" oninvalid="this.setCustomValidity('Only letters and numbers. No other signs or spaces.')"
+    oninput="setCustomValidity('')" ><br>
+        <button type="submit" class="image-btn" id="register-btn" form="form1" name="register">Register the ticket</button>
+      </form>
+
+      <% if (message !== false) { %>
+      <div class="message">
+        <h3><%= message %></h3>
+      </div>
+      <% } %>
+
+      <% if (errorMessage !== false) { %>
+      <div class="error-message">
+        <h3><%= errorMessage %></h3>
+      </div>
+      <% } %>
+
+      <div class="receipt-div">
+        <button type="submit" class="image-btn" id="receipt-btn" form="form1" name="receipt" value="receipt">Print the attendance receipt</button>
+      </div>
+
+    </div>
+  </body>
+</html>
