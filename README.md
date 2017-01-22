@@ -7,5 +7,4 @@ A simple little app written in NodeJS for the pure purpose of exploring the fram
 ![Screenshot2](/../screenshots/screenshot2.png?raw=true "Second page screenshot")
 
 Hi, 
-
 let's see
