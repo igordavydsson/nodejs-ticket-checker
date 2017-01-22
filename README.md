@@ -16,3 +16,9 @@ All in all it looks like this:
 
 ![Screenshot1](/../screenshots/screenshot1.png?raw=true "Front page screenshot")
 ![Screenshot2](/../screenshots/screenshot2.png?raw=true "Second page screenshot")
+
+# How to run it
+
+1. install all the node modules with `$ npm install`
+
+2. go to <http://localhost:3000>
