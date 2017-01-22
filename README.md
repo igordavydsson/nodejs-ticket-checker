@@ -21,4 +21,10 @@ All in all it looks like this:
 
 1. install all the node modules with `$ npm install`
 
-2. go to <http://localhost:3000>
+2. start the app with `$ node app.js`
+
+3. go to <http://localhost:3000>
+
+4. type in as many ticket numbers as needed
+
+5. click on the "Print the attendance receipt" button
