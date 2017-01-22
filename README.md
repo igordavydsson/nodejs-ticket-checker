@@ -10,7 +10,7 @@ Now you stand at the entrance and face a challenge: all the arrived guests are w
 
 # My Node.js solution
 
-My app utilizes *Express* module to create a server, *EJS* to handle the views and *Bower* to load *Bootstrap* (mainly just because I wanted to also use Bower; Bootstrap could be loaded with a simple CDN link).
+My app utilizes **Express** module to create a server, **EJS** to handle the views and **Bower** to load **Bootstrap** (mainly just because I wanted to also use Bower; Bootstrap could be loaded with a simple CDN link).
 
 All in all it looks like this: 
 
